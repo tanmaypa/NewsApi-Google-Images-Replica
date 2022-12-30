@@ -1,0 +1,268 @@
+
+.scroll {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    max-height: 600px;
+    width: 100%;
+    overflow-y: auto;
+    position: sticky;
+    top: 0.8rem;
+    border-radius: 20px;
+  }
+  .newsapi {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: gray;
+    padding-top: 15px;
+    margin-bottom: -5px;
+  }
+  
+  .container {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    text-align: end;
+    background-color: #ffffff;
+    padding: 0px;
+  }
+  .visitBtn {
+    margin: 20px;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 20px;
+    width: 100px;
+    background-color: #e8f0fe;
+    color: blue;
+  }
+  .text-center {
+    margin: 20px 0px;
+    margin-top: 20px;
+  }
+  
+  .clickedModal {
+    padding-left: 13px;
+    padding-top: 12px;
+    padding-right: 0px;
+  }
+  .card-img-top {
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: rgb(229, 235, 241);
+    cursor: pointer;
+  }
+  
+  .closebtn {
+    right: 40px;
+    padding-bottom: 20px;
+    border: none;
+    margin: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 100%;
+    cursor: pointer;
+    color: black;
+    background: none;
+    position: absolute;
+    right: 0px;
+  }
+  .closebtn:hover {
+    background-color: rgb(236, 236, 236);
+  }
+  
+  .leftbtn {
+    position: relative;
+    right: 40px;
+    padding-bottom: 20px;
+    border: none;
+    margin: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 100%;
+    cursor: pointer;
+    color: black;
+    background: none;
+  }
+  .leftbtn:hover {
+    background-color: rgb(236, 236, 236);
+  }
+  .rightbtn {
+    position: relative;
+    right: 40px;
+    padding-bottom: 20px;
+    border: none;
+    margin: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 100%;
+    cursor: pointer;
+    color: black;
+    background: none;
+  }
+  .rightbtn:hover {
+    background-color: rgb(236, 236, 236);
+  }
+  
+  .dropdownMenuButton1 {
+    position: relative;
+    right: 40px;
+    padding-bottom: 20px;
+    border: none;
+    margin: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 100%;
+    cursor: pointer;
+    color: black;
+    background: none;
+  }
+  .dropdownMenuButton1:hover {
+    background-color: rgb(236, 236, 236);
+  }
+  
+  .dropdown-menu {
+    border-radius: 10px;
+  }
+  .searchbar {
+    border-radius: 50px;
+    border: 1px solid rgb(186, 183, 183);
+    outline: none;
+    font-size: 1.2rem;
+    height: 2.5rem;
+    width: 30%;
+  }
+  .searchbar:hover {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+      rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+  
+  .keywords {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: gray;
+    font-size: 13px;
+    padding-bottom: 10px;
+    margin: 0px;
+  }
+  
+  .searchBtn {
+    background: none;
+    background-color: none;
+    color: blue;
+    border: none;
+    position: relative;
+    right: 50px;
+    bottom: -2.4px;
+    font-size: 1.5rem;
+  }
+  .searchBtn:hover {
+    border: none;
+  }
+  
+  .site {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .site:hover {
+    text-decoration: underline;
+  }
+  
+  .visitBtn:hover {
+    text-decoration: underline;
+  }
+  .highlight {
+    background-color: rgba(172, 201, 247, 0.5);
+    border: 1px solid blue;
+    border-radius: 10px;
+  }
+  
+  .seemorebtn {
+    align-items: center;
+    width: 90%;
+    border-radius: 50px;
+    border: none;
+    padding: 0.5rem;
+    margin-left: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .modal-dialog {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .modal-body_ul {
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+  }
+  
+  .modal-body_ul_li {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .modal-body_ul_li a {
+    padding-top: 10px;
+    padding-bottom: 50px;
+    text-decoration: none;
+  }
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+  }
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    align-items: center;
+    align-content: center;
+  }
+  @media (max-width: 500px) {
+    .clickedModal {
+      display: flex;
+      align-items: center;
+      padding: 8px;
+    }
+    .text-center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 0px;
+      padding: 0px;
+      margin-left: 20px;
+    }
+    .keywords {
+      padding-top: 0px;
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+    .searchbar {
+      width: 80%;
+      padding: 0px;
+      margin-right: 0px;
+    }
+    .searchBtn {
+      top: 0.5px;
+    }
+    .modal-dialog {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    .seemorebtn {
+      width: 96%;
+      border-radius: 50px;
+      border: none;
+      display: flex;
+      padding: 0.5rem;
+      margin-left: 7px;
+      margin-bottom: 10px;
+      justify-content: center;
+    }
+  }
+  

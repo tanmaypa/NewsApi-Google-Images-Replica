@@ -1,0 +1,43 @@
+
+.site {
+    text-decoration: none;
+  }
+  
+  .site:hover {
+    text-decoration: underline;
+    color: black;
+  }
+  
+  .lazyImg {
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .lazyImg:hover {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+      rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+  
+  .eachImg {
+    padding: 5px;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 500px) {
+    .eachImg {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0px;
+      padding: 0px;
+      width: 350px;
+    }
+  
+    .lazyImg {
+      width: 100%;
+      align-items: center;
+    }
+  }
