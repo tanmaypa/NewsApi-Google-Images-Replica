@@ -4,7 +4,7 @@ import News from "./components/News/News";
 
 const App = () => {
   const pageSize = 12;
-  const apiKey = process.env.REACT_APP_NEWS_API;
+  const apiKey = '06f76f622d9b4b25bdad71435fb3d65b';
   return <News apiKey={apiKey} pageSize={pageSize} />;
 };
 
